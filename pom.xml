@@ -8,7 +8,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-compile-version>3.6.1</maven-compile-version>
-    <junit-compile-version>3.8.1</junit-compile-version>
+    <junit-compile-version>4.12</junit-compile-version>
     <jdk.version>1.8</jdk.version>
   </properties>
 
