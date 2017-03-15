@@ -1,4 +1,4 @@
-package com.novakivska.app;
+package com.novakivska.runners;
 
 
 /**

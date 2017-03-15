@@ -1,4 +1,4 @@
-package com.novakivska.app.utils.runners;
+package com.novakivska.runners;
 
 import com.novakivska.app.utils.convertors.PrimitiveConvertor;
 
