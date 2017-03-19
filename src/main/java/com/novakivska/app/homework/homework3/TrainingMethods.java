@@ -1,4 +1,4 @@
-package com.novakivska.app.homework;
+package com.novakivska.app.homework.homework3;
 
 /**
  * Created by Tas_ka on 3/16/2017.

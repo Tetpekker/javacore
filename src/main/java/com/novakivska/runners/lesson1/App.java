@@ -1,4 +1,4 @@
-package com.novakivska;
+package com.novakivska.runners.lesson1;
 
 /**
  * Hello world!

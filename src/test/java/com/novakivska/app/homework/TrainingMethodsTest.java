@@ -1,5 +1,6 @@
 package com.novakivska.app.homework;
 
+import com.novakivska.app.homework.homework3.TrainingMethods;
 import org.junit.Assert;
 import org.junit.Test;
 
