@@ -1,4 +1,4 @@
-package com.novakivska.app.homework;
+package com.novakivska.app.homework.homework3;
 
 import com.novakivska.app.homework.homework3.TrainingMethods;
 import org.junit.Assert;

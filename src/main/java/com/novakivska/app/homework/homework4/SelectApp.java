@@ -6,10 +6,16 @@ import java.util.Scanner;
  * Created by Tas_ka on 3/19/2017.
  */
 public class SelectApp {
-    public static void enter (){
+
+    public static int getUserInput() {
         Scanner scanner = new Scanner(System.in);
+        int value = scanner.nextInt();
+        return value;
+    }
+
+    public static void enter (){
         System.out.println("Select required app");
-        int a = scanner.nextInt();
+        int a = getUserInput();
 
         if(a == 1) {
             Triangle.calculate();
