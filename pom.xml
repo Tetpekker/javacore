@@ -10,6 +10,7 @@
     <maven-compile-version>3.6.1</maven-compile-version>
     <junit-compile-version>4.12</junit-compile-version>
     <jdk.version>1.8</jdk.version>
+    <junit-params-version>1.0.6</junit-params-version>
   </properties>
 
   <build>
@@ -34,10 +35,19 @@
       <version>${junit-compile-version}</version>
       <scope>test</scope>
     </dependency>
+
       <dependency>
           <groupId>junit</groupId>
           <artifactId>junit</artifactId>
           <version>4.12</version>
       </dependency>
+
+    <dependency>
+      <groupId>pl.pragmatists</groupId>
+      <artifactId>JUnitParams</artifactId>
+      <version>${junit-params-version}</version>
+    </dependency>
+
   </dependencies>
+
 </project>
