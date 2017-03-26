@@ -1,4 +1,4 @@
-package com.novakivska.runners;
+package com.novakivska.runners.lesson4;
 
 import com.novakivska.app.homework.homework4.Numbers;
 import com.novakivska.app.homework.homework4.SelectApp;

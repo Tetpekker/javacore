@@ -1,7 +1,6 @@
 package com.novakivska.app.homework.homework5;
 
 import com.novakivska.app.classwork.lesson3.MathFunc;
-import com.novakivska.runners.Lesson4Runner;
 import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
 import junitparams.mappers.CsvWithHeaderMapper;

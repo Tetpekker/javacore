@@ -1,10 +1,8 @@
 package com.novakivska.app.homework.homework4;
 
-import com.novakivska.runners.Lesson4Runner;
+import com.novakivska.runners.lesson4.Lesson4Runner;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.Scanner;
 
 
 public class Lesson4RunnerTest {
