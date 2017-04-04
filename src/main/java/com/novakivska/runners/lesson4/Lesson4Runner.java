@@ -17,6 +17,7 @@ public class Lesson4Runner {
         System.out.println(welcome());
         System.out.println(menu());
         boolean exit = false;
+
         while (exit == false) {
             int userInput = userInputNormalize(getUserInput());
             switch (userInput) {
