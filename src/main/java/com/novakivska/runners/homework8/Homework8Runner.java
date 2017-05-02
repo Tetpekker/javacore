@@ -1,6 +1,5 @@
 package com.novakivska.runners.homework8;
 
-import com.novakivska.app.homework.homework6.Homework6a;
 import com.novakivska.app.homework.homework8.Homework8;
 
 /**

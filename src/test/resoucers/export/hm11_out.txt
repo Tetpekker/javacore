@@ -1,0 +1,6 @@
+moom is palindrome
+less is NOT palindrome
+lol is palindrome
+boom is NOT palindrome
+cook is NOT palindrome
+

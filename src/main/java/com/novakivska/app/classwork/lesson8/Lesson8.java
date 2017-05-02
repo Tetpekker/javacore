@@ -1,5 +1,7 @@
 package com.novakivska.app.classwork.lesson8;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -10,7 +12,14 @@ import static com.sun.xml.internal.bind.WhiteSpaceProcessor.replace;
  */
 public class Lesson8 {
     public static void main(String[] args) {
-        int[] array = {16, 8, 15, 2};
+
+        escape();
+        charToString();
+        convert();
+    }
+
+    public int [] arraySorted(int[] array){
+        //int[] array = {16, 8, 15, 2};
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length - 1; j++) {
                 if (array[j] > array[j + 1]) {
@@ -20,10 +29,10 @@ public class Lesson8 {
                 }
             }
         }
-        System.out.println(Arrays.toString(array));
-        escape();
-        charToString();
+        //System.out.println(Arrays.toString(array));
+        return array;
     }
+
     public static void escape(){
         System.out.println("\t bla-bla-bla");
         System.out.println("bla-bla-bla\b");
@@ -51,10 +60,21 @@ public class Lesson8 {
       //  System.out.println(stringToDisplay);
       //}
     //String toFloat = "0,44";
-    Integer intValue = new Integer(7);
-    String seven = String.valueOf(intValue);
-    Integer doubleInteger = new Integer(44);
-    String fourtyFour = String.valueOf(doubleInteger);
+    public static void convert() {
+        Integer intValue = new Integer(7);
+        String seven = String.valueOf(intValue);
+        System.out.println(seven);
+
+        Boolean boleanValue = new Boolean(true);
+        String fourtyFour = String.valueOf(boleanValue);
+        System.out.println(fourtyFour);
+
+        Double doubleValue = new Double(2);
+        String Doublestring = String.valueOf(doubleValue);
+
+        Long longValue = new Long(1234_5678_9012_3456L);
+        String longvalue = String.valueOf(longValue);
+    }
     }
 
 

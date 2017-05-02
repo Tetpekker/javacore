@@ -6,7 +6,7 @@ import java.util.Random;
 /**
  * Created by Tas_ka on 3/26/2017.
  */
-public class Homework6a {
+public class Homework6 {
 
     public static int arrayLen(int from, int to, boolean odd){
         int length = 0;

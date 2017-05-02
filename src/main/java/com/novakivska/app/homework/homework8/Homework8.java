@@ -1,14 +1,12 @@
 package com.novakivska.app.homework.homework8;
 
-import com.novakivska.app.homework.homework6.Homework6a;
-
-import java.util.Random;
+import com.novakivska.app.homework.homework6.Homework6;
 
 /**
  * Created by Tas_ka on 4/1/2017.
  */
 public class Homework8 {
-    public static Homework6a action = new Homework6a();
+    public static Homework6 action = new Homework6();
 
 
 
