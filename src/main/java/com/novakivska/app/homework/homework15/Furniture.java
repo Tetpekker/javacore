@@ -14,4 +14,5 @@ public class Furniture {
     public int getFurnitureItems() {
         return furnitureItems;
     }
+
 }
