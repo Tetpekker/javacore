@@ -5,10 +5,10 @@ package com.novakivska.app.homework.homework16;
  */
 public abstract class Mashine implements Run{
 
-    public static final int minSpeed = 100;
-    public static final int maxSpeed = 500;
-    public static final int minPassengers = 1;
-    public static final int maxPassengers = 40;
+    int minSpeed = 100;
+    int maxSpeed = 500;
+    int minPassengers = 1;
+    int maxPassengers = 40;
 
     String transportName;
     int nowSpeed;

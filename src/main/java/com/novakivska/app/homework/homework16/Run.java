@@ -7,7 +7,7 @@ public interface Run {
 
     void printName ();
     int getSpeed();
-    int getWeight();
+    String getWeight();
     int getPassengers();
     void wheels();
 

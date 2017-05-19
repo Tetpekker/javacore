@@ -10,9 +10,8 @@ import com.novakivska.app.homework.homework16.Wheeled;
 public class MashineRunner {
     public static void main(String[] args){
 
-        Tractor wheeled = new Wheeled("Wheeled Tractor", 300);
-        Tractor caterpillar = new Caterpillar("Caterpillar", 100);
-
+       Tractor wheeled = new Wheeled("Wheeled Tractor", 100, "3 tonnas", 2, 4);
+       Tractor caterpillar = new Caterpillar("CAT", 70, "5 tonnas", 2, 8);
         wheeled.mashineInfo();
         caterpillar.mashineInfo();
     }

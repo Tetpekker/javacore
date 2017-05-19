@@ -5,8 +5,19 @@ package com.novakivska.app.homework.homework16;
  */
 public class Tractor extends Mashine {
 
+    private String weight;
+    private int passengers;
+    private int wheels;
+
     public Tractor(String transportName, int speedNow){
         super(transportName, speedNow);
+    }
+    public Tractor(String transportname, int speedNow, String weight, int passengers, int wheels){
+        super(transportname, speedNow);
+        this.weight = weight;
+        this.passengers = passengers;
+        this.wheels = wheels;
+
     }
 
     @Override
@@ -21,9 +32,8 @@ public class Tractor extends Mashine {
     }
 
     @Override
-    public int getWeight() {
-
-        return 0;
+    public String getWeight() {
+        return weight;
     }
 
     @Override

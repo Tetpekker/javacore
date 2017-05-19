@@ -5,13 +5,19 @@ package com.novakivska.app.homework.homework16;
  */
 public class Wheeled extends Tractor implements Run {
 
-    public Wheeled(String transportName, int speedName){
-        super(transportName, speedName);
+    public Wheeled(String transportName, int speedNow){
+        super(transportName, speedNow);
+    }
+    public Wheeled(String trasportName, int speedNow, String weight, int passengers, int wheels){
+        super(trasportName, speedNow);
+        this.weight = weight;
+        this.passengers = passengers;
+        this.wheels = wheels;
     }
 
     private String name;
     private int speed;
-    private int weight;
+    private String weight;
     private int passengers;
     private int wheels;
 
@@ -25,7 +31,7 @@ public class Wheeled extends Tractor implements Run {
     }
 
     @Override
-    public int getWeight() {
+    public String getWeight() {
         return weight;
     }
 
@@ -39,6 +45,7 @@ public class Wheeled extends Tractor implements Run {
     }
 
     public void mashineInfo(){
-        System.out.println("This mashine is: " + transportName + " with speed: " + nowSpeed + ".");
+        System.out.println("This mashine is: " + transportName + " with speed: " + nowSpeed + ", weight: " +
+                            weight + ", passengers: " + passengers + " and wheels: " + wheels + ".");
     }
 }

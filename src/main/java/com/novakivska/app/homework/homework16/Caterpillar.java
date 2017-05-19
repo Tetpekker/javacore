@@ -5,13 +5,19 @@ package com.novakivska.app.homework.homework16;
  */
 public class Caterpillar extends Tractor implements Run {
 
-    public Caterpillar(String transportName, int speedName){
-        super(transportName, speedName);
+    public Caterpillar(String transportName, int speedNow){
+        super(transportName, speedNow);
+    }
+    public Caterpillar(String transportName, int speedNow, String weight, int passengers, int wheels){
+        super(transportName, speedNow);
+        this.weight = weight;
+        this.passengers = passengers;
+        this.wheels = wheels;
     }
 
     private String name;
     private int speed;
-    private int weight;
+    private String weight;
     private int passengers;
     private int wheels;
 
@@ -25,7 +31,7 @@ public class Caterpillar extends Tractor implements Run {
     }
 
     @Override
-    public int getWeight() {
+    public String getWeight() {
         return weight;
     }
 
@@ -37,7 +43,9 @@ public class Caterpillar extends Tractor implements Run {
     public int getWheels() {
         return wheels;
     }
+
     public void mashineInfo(){
-        System.out.println("This mashine is: " + transportName + " with speed: " + nowSpeed + ".");
+        System.out.println("This mashine is: " + transportName + " with speed: " + nowSpeed + ", weight: " +
+                weight + ", passengers: " + passengers + " and wheels: " + wheels + ".");
     }
 }
